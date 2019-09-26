@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.backgrounddiv img{
+    width: 100vw;
+    z-index:1;
+}
+
+.screensdiv img{
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    z-index: 2;
+}
+
+.screensdiv :hover{
+    opacity: 1;
+    fill: #ff8888;
+}
+
+
+
+#thesis img{
+    width: 40.38vw;
+    left:3.3vw;
+    position: absolute;
+    top:24.2vw;
+    z-index:2;
+}
