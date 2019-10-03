@@ -1,0 +1,89 @@
+{"data":[
+    {
+                "project":"thesis",
+                "project-info":{
+
+                    "image":"assets/images/thesis.png",
+                    "year":"2019",
+                    "type":"architecture"
+                }
+
+            },
+
+            {
+                "project":"campus-canvas",
+                "project-info":{
+
+                    "image":"assets/images/cc.png",
+                    "year":"2016",
+                    "type":"installation"
+                }
+
+            },
+
+            {
+                "project":"georgia-ave",
+                "project-info":{
+
+                    "image":"assets/images/georgia.png",
+                    "year":"2017",
+                    "type":"architecture"
+                }
+
+            },
+
+            {
+                "project":"mosque",
+                "project-info":{
+
+                    "image":"assets/images/mosque.png",
+                    "year":"2018",
+                    "type":"architecture"
+                }
+
+            },
+
+            {
+                "project":"archaeology",
+                "project-info":{
+
+                    "image":"assets/images/archie.png",
+                    "year":"2018",
+                    "type":"architecture"
+                }
+
+            },
+
+            {
+                "project":"glitch-art",
+                "project-info":{
+
+                    "image":"assets/images/glitch.png",
+                    "year":"2019",
+                    "type":"art"
+                }
+
+            },
+
+            {
+                "project":"immersion",
+                "project-info":{
+
+                    "image":"assets/images/immersion.png",
+                    "year":"2019",
+                    "type":"art"
+                }
+
+            }
+
+        
+
+        
+        ]
+    
+    }
+
+
+
+
+
