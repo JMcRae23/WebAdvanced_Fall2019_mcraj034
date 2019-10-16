@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+
+a.hidden{display:none;}
+
+
+
+.backgrounddiv img{
+    width: calc(100vw*2.2);
+    z-index:1;
+}
+
+.screensdiv img{
+    filter: grayscale(100%);
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.75s ease-in-out;
+    color: white;
+    z-index: 2;
+}
+
+.screensdiv :hover{
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+
+
+#thesis img{
+    width: calc(13.6vw*2.2);
+    left:calc(29.6vw*2.2);
+    position: absolute;
+    top:calc(23.8vw*2.2);
+    z-index:2;
+}
+
+#ccdiv img{
+    width: calc(15vw*2.2);
+    left:calc(2.9vw*2.2);
+    position: absolute;
+    top:calc(23.8vw*2.2);
+    z-index:2;
+}
+
+#archdiv img{
+    width: calc(13.8vw*2.2);
+    left:calc(28.8vw*2.2);
+    position: absolute;
+    top:calc(42.2vw*2.2);
+    z-index:2;
+}
+
+#georgiadiv img{
+    width: calc(15vw*2.2);
+    left: calc(79.9vw*2.2);
+    position: absolute;
+    top:calc(23.1vw*2.2);
+    z-index:2;
+}
+
+#glitchdiv img{
+    width: calc(13.8vw*2.2);
+    left:calc(78.3vw*2.2);
+    position: absolute;
+    top:calc(41.8vw*2.2);
+    z-index:2;
+}
+
+#mosquediv img{
+    width: calc(14vw*2.2);
+    left:calc(53.4vw*2.2);
+    position: absolute;
+    top:calc(22.3vw*2.2);
+    z-index:2;
+}
+
+#immersiondiv img{
+    width: calc(14.4vw*2.2);
+    left:calc(78.1vw*2.2);
+    position: absolute;
+    top:calc(6vw*2.2);
+    z-index:2;
+}
+
+#leancreekdiv img{
+    width: calc(14.78vw*2.2);
+    left:calc(52.8vw*2.2);
+    position: absolute;
+    top:calc(5vw*2.2);
+    z-index:2;
+}
+
+#geralddiv img{
+    width: calc(14.2vw*2.2);
+    left:calc(5.1vw*2.2);
+    position: absolute;
+    top:calc(42.2vw*2.2);
+    z-index:2;
+}
+
+#comicdiv img{
+    width: calc(13.7vw*2.2);
+    left:calc(54.1vw*2.2);
+    position: absolute;
+    top:calc(42.2vw*2.2);
+    z-index:2;
+}
+
+#welcome img{
+    width: calc(15vw*2.2);
+    left:calc(2.6vw*2.2);
+    position: absolute;
+    top:calc(5.5vw*2.2);
+    z-index:2;
+}
+
+#about img{
+    width: calc(13.4vw*2.2);
+    left:calc(28.3vw*2.2);
+    position: absolute;
+    top:calc(5.7vw*2.2);
+    z-index:2;
+}
