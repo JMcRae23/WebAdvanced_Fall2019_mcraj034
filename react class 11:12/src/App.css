@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.frame1 {
+  width: 46.25vw;
+  left:2.5vw; 
+  top: 2.5vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame2 {
+  width: 46.25vw;
+  left:51.5vw; 
+  top: 2.5vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame3 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 65vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame4 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 97vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame5 {
+  width: 46.25vw;
+  left:2.5vw; 
+  top: 172vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame6 {
+  width: 46.25vw;
+  left:51.5vw; 
+  top: 172vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame7 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 232vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame8 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 299vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame9 {
+  width: 46.25vw;
+  left:2.5vw; 
+  top: 366vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame10 {
+  width: 46.25vw;
+  left:51.5vw; 
+  top: 366vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame11 {
+  width: 46.25vw;
+  left:2.5vw; 
+  top: 430vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame12 {
+  width: 46.25vw;
+  left:51.5vw; 
+  top: 430vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame13 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 503vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame14 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 569vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame15 {
+  width: 95vw;
+  left:2.5vw; 
+  top: 601vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame16 {
+  width: 46.25vw;
+  left:2.5vw; 
+  top: 633vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
+
+.frame17 {
+  width: 46.25vw;
+  left:51.5vw; 
+  top: 633vw; 
+  position:absolute;
+  border: .2vw solid white;
+}
