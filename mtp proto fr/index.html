@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Demo</title>
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<style type="text/css">
+body { background-color: black; }
+a:link { color:#33c; } 
+a:visited { color:#339; }
+.frames img {border: .2vw solid white;}
+#frame1 img {width:46.25vw; left:2.5vw; top: 2.5vw; position:absolute;}
+#frame2 img {width:46.25vw; left:51.5vw; top: 2.5vw; position:absolute;}
+#frame3b img {width:95vw; left:2.5vw; top: 65vw; position:absolute;}
+#frame3 img {width:95vw; left:2.5vw; top: 97vw; position:absolute;}
+#frame4 img {width:95vw; left:2.5vw; top: 129vw; position:absolute;}
+#frame5 img {width:46.25vw; left:2.5vw; top: 204vw; position:absolute;}
+#frame6 img {width:46.25vw; left:51.5vw; top: 204vw; position:absolute;}
+#frame7 img {width:95vw; left:2.5vw; top: 264vw; position:absolute;}
+#frame8 img {width:95vw; left:2.5vw; top: 334vw; position:absolute;}
+#frame9 img {width:46.25vw; left:2.5vw; top: 400vw; position:absolute;}
+#frame10 img {width:46.25vw; left:51.5vw; top: 400vw; position:absolute;}
+#frame11 img {width:46.25vw; left:2.5vw; top: 460vw; position:absolute;}
+#frame12 img {width:95vw; left:2.5vw; top: 474vw; position:absolute;}
+#frame13 img {width:95vw; left:2.5vw; top: 542vw; position:absolute;}
+#frame14 img {width:46.25vw; left:2.5vw; top: 609vw; position:absolute;}
+#frame15 img {width:46.25vw; left:51.5vw; top: 609vw; position:absolute;}
+#frame16 img {width:46.25vw; left:2.5vw; top: 680vw; position:absolute;}
+#frame17 img {width:46.25vw; left:51.5vw; top: 680vw; position:absolute;}
+#frame18 img {width:46.25vw; left:2.5vw; top: 744vw; position:absolute;}
+#frame19 img {width:46.25vw; left:51.5vw; top: 744vw; position:absolute;}
+#frame20 img {width:95vw; left:2.5vw; top: 817vw; position:absolute;}
+#frame21 img {width:46.25vw; height:65vw ;left:2.5vw; top: 883vw; position:absolute;}
+#frame22 img {width:46.25vw; left:51.5vw; top: 883vw; position:absolute;}
+#frame23 img {width:95vw; left:2.5vw; top: 951vw; position:absolute;}
+#frame24 img {width:95vw; left:2.5vw; top: 983vw; position:absolute;}
+#frame25 img {width:46.25vw; left:2.5vw; top: 1015.5vw; position:absolute;}
+#frame26 img {width:46.25vw; left:51.5vw; top: 1015.5vw; position:absolute;}
+
+
+/* so linked image won't have border */
+a img { border:none; }
+</style>
+<h3>
+<script type="text/javascript">
+// place your images in this array
+var frame_4_array = ['4a.jpg', '4b.jpg', '4c.jpg'];
+var frame_5_array = ['5a.jpg', '5b.jpg', '5c.jpg'];
+var frame_6_array = ['6a.jpg', '6b.jpg', '6c.jpg'];
+var frame_7_array = ['7a.jpg', '7b.jpg', '7c.jpg', '7d.jpg', '7e.jpg', '7f.jpg', '7g.jpg', '7h.jpg', '7i.jpg',];
+var frame_8_array = ['8.jpg'];
+var frame_9_array = ['9c.jpg'];
+var frame_10_array = ['10g.jpg', '10h.jpg', '10i.jpg',];
+var frame_11_array = ['11.jpg'];
+var frame_12_array = ['12a.jpg', '12b.jpg', '12c.jpg'];
+var frame_13_array = ['13a.jpg', '13b.jpg', '13c.jpg'];
+var frame_14_array = ['14a.jpg', '14b.jpg', '14c.jpg'];
+var frame_15_array = ['15a.jpg', '15b.jpg', '15c.jpg'];
+var frame_16_array = ['16a.jpg'];
+var frame_17_array = ['17a.jpg', '17b.jpg', '17c.jpg'];
+var frame_18_array = ['18a.jpg', '18b.jpg', '18c.jpg'];
+var frame_19_array = ['19a.jpg', '19b.jpg', '19c.jpg'];
+var frame_20_array = ['20a.jpg', '20b.jpg', '20c.jpg'];
+var frame_21_array = ['21a.jpg', '21b.jpg', '21c.jpg'];
+var frame_22_array = ['22a.jpg', '22b.jpg', '22c.jpg'];
+
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+  
+}
+
+</script>
+</h3>
+</head>
+<body>
+    <div class='frames'>
+
+        <div id='frame1'>
+            <img src="images/1.jpg" alt="">
+        </div>
+
+        <div id='frame2'>
+            <img src="images/2.jpg" alt="">
+        </div>
+
+
+        <div id='frame3b'>
+                        <img src="images/3b.jpg" alt="">
+        </div>
+
+        <div id='frame3'>
+            <img src="images/3.jpg" alt="">
+         </div>
+
+         <div id='frame4'>
+            <script type="text/javascript">getRandomImage(frame_4_array, 'images/')</script>
+        </div>
+
+        <div id='frame5'>
+            <script type="text/javascript">getRandomImage(frame_5_array, 'images/')</script>
+        </div>
+
+        <div id='frame6'>
+            <script type="text/javascript">getRandomImage(frame_6_array, 'images/')</script>
+        </div>
+
+        <div id='frame7'>
+             <script type="text/javascript">getRandomImage(frame_7_array, 'images/')</script>
+        </div>
+
+        <div id='frame8'>
+                <script type="text/javascript">getRandomImage(frame_8_array, 'images/')</script>
+        </div>
+    
+        <div id='frame9'>
+                        <script type="text/javascript">getRandomImage(frame_9_array, 'images/')</script>
+        </div>
+
+        <div id='frame10'>
+                <script type="text/javascript">getRandomImage(frame_10_array, 'images/')</script>
+        </div>
+
+        <!-- <div id='frame11'>
+                <script type="text/javascript">getRandomImage(frame_11_array, 'images/')</script>
+        </div> -->
+
+        <div id='frame12'>
+                <script type="text/javascript">getRandomImage(frame_12_array, 'images/')</script>
+        </div>
+
+        <div id='frame13'>
+                <script type="text/javascript">getRandomImage(frame_13_array, 'images/')</script>
+        </div>
+
+        <div id='frame14'>
+                <script type="text/javascript">getRandomImage(frame_14_array, 'images/')</script>
+        </div>
+
+        <div id='frame15'>
+                <script type="text/javascript">getRandomImage(frame_15_array, 'images/')</script>
+        </div>
+        
+        <div id='frame16'>
+                <script type="text/javascript">getRandomImage(frame_16_array, 'images/')</script>
+        </div>
+
+        <div id='frame17'>
+                <script type="text/javascript">getRandomImage(frame_17_array, 'images/')</script>
+        </div>
+
+        <div id='frame18'>
+                <script type="text/javascript">getRandomImage(frame_18_array, 'images/')</script>
+        </div>
+        
+        <div id='frame19'>
+                <script type="text/javascript">getRandomImage(frame_19_array, 'images/')</script>
+        </div>
+
+        <div id='frame20'>
+                <script type="text/javascript">getRandomImage(frame_20_array, 'images/')</script>
+        </div>
+
+        <div id='frame21'>
+                <script type="text/javascript">getRandomImage(frame_21_array, 'images/')</script>
+        </div>
+
+        <div id='frame22'>
+                <script type="text/javascript">getRandomImage(frame_22_array, 'images/')</script>
+        </div>
+
+        <div id='frame23'>
+                        <img src="images/3.jpg" alt="">
+        </div>
+
+        <div id='frame24'>
+                        <img src="images/3b.jpg" alt="">
+        </div>
+
+        <div id='frame25'>
+                        <img src="images/2.jpg" alt="">
+        </div>
+
+        <div id='frame26'>
+                        <img src="images/1.jpg" alt="">
+        </div>
+
+    </div>
+    
+
+</body>
+</html>

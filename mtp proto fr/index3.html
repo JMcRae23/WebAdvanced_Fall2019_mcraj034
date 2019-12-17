@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Demo</title>
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+
+<style type="text/css">
+body { background-color: black; }
+a:link { color:#33c; } 
+a:visited { color:#339; }
+#frame1 img {width:46.25vw; left:2.5vw; top: 2.5vw; position:absolute;}
+#frame2 img {width:46.25vw; left:51.5vw; top: 2.5vw; position:absolute;}
+#frame3 img {width:95vw; left:2.5vw; top: 65vw; position:absolute;}
+#frame4 img {width:95vw; left:2.5vw; top: 97vw; position:absolute;}
+#frame5 img {width:46.25vw; left:2.5vw; top: 172vw; position:absolute;}
+#frame6 img {width:46.25vw; left:51.5vw; top: 172vw; position:absolute;}
+#frame7 img {width:95vw; left:2.5vw; top: 232vw; position:absolute;}
+#frame8 img {width:95vw; left:2.5vw; top: 299vw; position:absolute;}
+#frame9 img {width:46.25vw; left:2.5vw; top: 366vw; position:absolute;}
+#frame10 img {width:46.25vw; left:51.5vw; top: 366vw; position:absolute;}
+#frame11 img {width:46.25vw; left:2.5vw; top: 430vw; position:absolute;}
+#frame12 img {width:46.25vw; left:51.5vw; top: 430vw; position:absolute;}
+#frame13 img {width:95vw; left:2.5vw; top: 503vw; position:absolute;}
+#frame14 img {width:95vw; left:2.5vw; top: 569vw; position:absolute;}
+#frame15 img {width:95vw; left:2.5vw; top: 601vw; position:absolute;}
+#frame16 img {width:46.25vw; left:2.5vw; top: 633vw; position:absolute;}
+#frame17 img {width:46.25vw; left:51.5vw; top: 633vw; position:absolute;}
+
+
+/* so linked image won't have border */
+a img { border:none; }
+</style>
+<h3>
+<script type="text/javascript">
+// place your images in this array
+var frame_4_array = ['4a.jpg', '4b.jpg', '4c.jpg'];
+var frame_5_array = ['5a.jpg', '5b.jpg', '5c.jpg'];
+var frame_6_array = ['6a.jpg', '6b.jpg', '6c.jpg'];
+var frame_7_array = ['7a.jpg', '7b.jpg', '7c.jpg'];
+var frame_8_array = ['8a.jpg', '8b.jpg', '8c.jpg'];
+var frame_10_array = ['10a.jpg', '10b.jpg', '10c.jpg'];
+var frame_11_array = ['11a.jpg', '11b.jpg', '11c.jpg'];
+var frame_12_array = ['12a.jpg', '12b.jpg', '12c.jpg'];
+var frame_13_array = ['13a.jpg', '13b.jpg', '13c.jpg'];
+
+
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length);
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+  
+}
+
+</script>
+</h3>
+</head>
+<body>
+    <div class='frames'>
+
+        <div id='frame1'>
+            <img src="images/1.jpg" alt="">
+        </div>
+
+        <div id='frame2'>
+            <img src="images/2.jpg" alt="">
+        </div>
+
+        <div id='frame3'>
+            <img src="images/3.jpg" alt="">
+         </div>
+
+         <div id='frame4'>
+            <script type="text/javascript">getRandomImage(frame_4_array, 'images/');</script>
+        </div>
+
+        <div id='frame5'>
+            <script type="text/javascript">getRandomImage(frame_5_array, 'images/')</script>
+        </div>
+
+        <div id='frame6'>
+            <script type="text/javascript">getRandomImage(frame_6_array, 'images/')</script>
+        </div>
+
+        <div id='frame7'>
+             <script type="text/javascript">getRandomImage(frame_7_array, 'images/')</script>
+        </div>
+
+        <div id='frame8'>
+                <script type="text/javascript">getRandomImage(frame_8_array, 'images/')</script>
+        </div>
+    
+        <div id='frame9'>
+                <img src="images/9.jpg" alt="">
+        </div>
+
+        <div id='frame10'>
+                <script type="text/javascript">getRandomImage(frame_10_array, 'images/')</script>
+        </div>
+
+        <div id='frame11'>
+                <script type="text/javascript">getRandomImage(frame_11_array, 'images/')</script>
+        </div>
+
+        <div id='frame12'>
+                <script type="text/javascript">getRandomImage(frame_12_array, 'images/')</script>
+        </div>
+
+        <div id='frame13'>
+                <script type="text/javascript">getRandomImage(frame_13_array, 'images/')</script>
+        </div>
+
+        <div id='frame14'>
+                <img src="images/3.jpg" alt="">
+        </div>
+
+        <div id='frame15'>
+                <img src="images/15.jpg" alt="">
+        </div>
+        
+        <div id='frame16'>
+                <img src="images/2.jpg" alt="">
+        </div>
+
+        <div id='frame17'>
+                <img src="images/1.jpg" alt="">
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
